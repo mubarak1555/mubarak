@@ -2,5 +2,24 @@ body {
   background-color: aqua;
 }
 li {
-  background-color: #000;
+  color: #fff;
+  font-weight: bolder;
+  background-color: blueviolet;
+  padding: 20px 30px;
+  cursor: pointer;
+  list-style: none;
+}
+h1 {
+  text-align: center;
+}
+#form {
+  margin-left: 40px;
+  margin-top: 10px;
+}
+#text {
+  font-weight: bolder;
+  background-color: chocolate;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding-left: 10px;
 }
