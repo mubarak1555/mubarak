@@ -1,5 +1,4 @@
 
-document.getElementById('enter');
 const doIt = document.getElementById('enter');
 doIt.addEventListener('click', onDoItClick);
 function onDoItClick(){
