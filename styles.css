@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  text-align: center;
+  background-color: #283149;
+}
+
+h1,
+h3 {
+  font-size: 5rem;
+  color: #dbedf3;
+  font-family: 'Arvo', cursive;
+  text-shadow: 3px 0 #da0463;
+  padding-top: 30px;
+}
+
+footer {
+  color: #dbedf3;
+  font-family: sans-serif;
+}
+
+.w {
+  background-image: url('images/tom1.png');
+}
+
+.a {
+  background-image: url('images/tom2.png');
+}
+
+.s {
+  background-image: url('images/tom3.png');
+}
+
+.d {
+  background-image: url('images/tom4.png');
+}
+
+.j {
+  background-image: url('images/snare.png');
+}
+
+.k {
+  background-image: url('images/crash.png');
+}
+
+.l {
+  background-image: url('images/kick.png');
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #dbedf3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404b69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #da0463;
+  text-shadow: 3px 0 #dbedf3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+header {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+ul {
+  list-style: none;
+  background-color: rgba(9, 31, 24, 0.411);
+  border-radius: 20px;
+  margin: 0px 20px;
+}
+li {
+  display: inline-block;
+
+  margin: 20px 10px;
+}
+a {
+  text-decoration: none;
+  color: #dbedf3;
+  font-weight: bolder;
+}
+button {
+  background-color: rgb(45, 192, 192);
+  color: white;
+  padding: 10px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(10, 83, 83);
+  color: white;
+  padding: 8px;
+  font-weight: bolder;
+}
+img {
+  margin-top: 20px;
+}
+h3 {
+  color: aliceblue;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: bolder;
+}
